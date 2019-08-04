@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: docker-php
+    ports:
+      - "80:80"
+    volumes:
+      - ./www:/var/www/html
