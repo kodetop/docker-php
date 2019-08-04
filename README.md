@@ -36,4 +36,3 @@ docker-compose down     # Detener y eliminar el ambiente de desarrollo.
 ### Accesos
 
 http://localhost/
-
